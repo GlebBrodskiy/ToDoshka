@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 enum Importance { yellow, orange, red, darkBlue }
 
+Color textColor = Colors.orange;
+
 extension ParseToString on Importance {
   String toShortString() {
     return this.toString().split('.').last;
   }
 }
-
-Color textColor = Colors.orange;
 
 titleTextColor(Importance value) {
   switch (value.toShortString()) {
@@ -110,7 +110,8 @@ class _HomeState extends State<Home> {
                                   Text(myTodo[index].dateOfCreation),
                                   Text(myTodo[index].dateOfCreation),
                                   Text(myTodo[index].dateOfCreation),
-
+                                  Text(myTodo[index].dateOfCreation),
+                                  Text(myTodo[index].dateOfCreation),
                                   // Text(myTodo[index].importance),
                                 ],
                               ),
