@@ -83,6 +83,19 @@ class _HomeState extends State<Home> {
                         Row(
                           children: [
                             Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+                            Text(myTodo[index].dateOfCreation),
+
                             // Text(myTodo[index].importance),
                           ],
                         ),
