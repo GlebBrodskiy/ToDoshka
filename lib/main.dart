@@ -12,18 +12,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text(
             'ToDoшка',
-            style: GoogleFonts.lobster(color: Colors.white, fontSize: 40),
+            style: GoogleFonts.lobster(color: Colors.black, fontSize: 40),
           ),
-          backgroundColor: Colors.deepOrange,
+          backgroundColor: Colors.white,
+          elevation: 0.0,
         ),
-
         body: Home(),
+
       ),
     );
   }
